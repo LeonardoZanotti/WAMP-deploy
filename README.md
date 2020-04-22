@@ -11,6 +11,7 @@ Para subir o jogo no localhost no windows é necessário o uso do Apache, que po
 * Caso tenha Skype, feche-o durante a instalação, pois este programa também ouve a porta 80 assim como o WampServer.
 * Execute o instalador como admnistrador.
 * Instale todos os pacotes C++ exigidos pelo WampServer:
+
    **Se seu windows é 64 bits você deverá instalar todos os pacotes 64 bits (x64) e 32 bits (x86)**
    * [Todos os pacotes x86](http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86.zip)
    * [Todos os pacotes x86 e x64](http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86_x64.zip)
