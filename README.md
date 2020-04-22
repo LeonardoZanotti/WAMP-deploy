@@ -40,6 +40,7 @@ Após acessar o site e baixar o arquivo, basta executá-lo e seguir os procedime
 
 Após a instalação, execute o WampServer, aguarde o ícone dele ficar verde na barra de tarefas e abra o localhost no seu navegador. A página do WampServer deverá aparecer, indicando que a instalação foi realizada corretamente.
 
+![localhost](img/screenshot5.png "Página do WampServer no localhost")
 
 ## Hospedando o jogo
 Após a instalação do WampServer, vá até o disco local e entre na pasta onde foi instalado o WampServer (por padrão é `wamp64`) e então entre na pasta `www`. Nessa pasta, copie e cole a pasta `jogo2048.com` que está neste repositório.
