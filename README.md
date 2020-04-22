@@ -1,15 +1,15 @@
 # Upando jogo 2048 no localhost
-> Relatório que explica como subir o jogo "2048" em um virtual host usando o Apache do WampServer
+> Relatório que explica como subir o jogo "2048" em um virtual host usando o Apache do WampServer.
 
 
 ## Instalação do WampServer
 Para subir o jogo no localhost no windows é necessário o uso do Apache, que pode ser instalado individualmente ou através de um pacote chamado WampServer, que além de ter o Apache também possui PHP, MySQL e MariaDB.
 
 **Pontos importantes antes da instalação**
-* **Não** instale o WampServer sobre uma versão já existente
-* Instale o WampServer numa pasta na raíz do disco local, por exemplo `C:\wamp`
-* Caso tenha Skype, feche-o durante a instalação, pois este programa também ouve a porta 80 assim como o WampServer
-* Execute o instalador como admnistrador
+* **Não** instale o WampServer sobre uma versão já existente.
+* Instale o WampServer numa pasta na raíz do disco local, por exemplo `C:\wamp`.
+* Caso tenha Skype, feche-o durante a instalação, pois este programa também ouve a porta 80 assim como o WampServer.
+* Execute o instalador como admnistrador.
 * Instale todos os pacotes C++ exigidos pelo WampServer:
 
    **Se seu windows é 64 bits você deve instalar todos os pacotes 64 bits (x64) e 32 (x86) bits**
@@ -42,17 +42,20 @@ Após a instalação, execute o WampServer, aguarde o ícone dele ficar verde na
 
 
 ## Hospedando o jogo
- 
+Após a instalação do WampServer, vá até o disco local e entre na pasta onde foi instalado o WampServer (por padrão é `wamp64`) e então entre na pasta `www`. Nessa pasta, copie e cole a pasta `jogo2048.com` que está neste repositório.
 
-*Initial work*
+![jogo2048.com](img/screenshot1.png "Pasta 'jogo2048.com' criada")
 
-_Para mais exemplos._ 
+Feito isso, volte à pasta do WampServer e vá em `bin > apache > apache2.4.41 > conf`. Detalhe que a pasta apache2.4.41 pode mudar de nome dependendo da versão do seu apache, entretanto, esta pasta é a única dentro da pasta `apache`. Na pasta `conf`, abra o arquivo `httpd.conf` com um editor de texto e procure onde está escrito `httpd-vhosts`. Caso esta linha esteja comentada, ou seja, com um `#` na frente, apague o `#` e salve o arquivo.
 
+![httpd-vhosts](img/screenshot2.png "httpd-vhosts")
 
- ## Contributing
+Após salvar o arquivo, feche-o e volte à pasta `conf`, nessa pasta há uma pasta chamada `extra`, abra-a e em seguida abra o arquivo `httpd-vhosts.conf` com um editor de texto. Nesse arquivo, copie e cole logo abaixo o texto que está nele, editando os campos `ServerName`, `DocumentRoot` e `Directory` conforme a imagem abaixo.
 
-1. Faça o _fork_ do projeto (<https://github.com/yourname/yourproject/fork>)
-2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
-3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
-4. _Push_ (`git push origin feature/fooBar`)
-5. Crie um novo _Pull Request_
+![httpd-vhosts.conf](img/screenshot3.png "httpd-vhosts.conf")
+
+Por fim, volte ao disco local e vá em `Windows > System32 > drivers > etc`. Nesta pasta abra o arquivo `hosts` com o editor de texto **como admnistrador** (abra o editor de texto como admnistrador e então abra o arquivo hosts através do editor de texto). Neste arquivo, após `127.0.0.1 localhost`, coloque `127.0.0.1 jogo2048.com` e salve.
+
+![hosts](img/screenshot4.png "hosts")
+
+Com isso, basta reiniciar o WampServer na barra de tarefas, para isso clique no ícone dele com o botão esquerdo e então clique em "Reiniciar todos os serviços". Após o WampServer reiniciar, vá na url `jogo2048.com` no seu navegador, que deverá mostrar o jogo que hospedamos.
