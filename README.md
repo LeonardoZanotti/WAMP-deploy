@@ -55,7 +55,7 @@ Feito isso, volte à pasta do WampServer e vá em `bin > apache > apache2.4.41 >
 
 ![httpd-vhosts](img/screenshot2.png "httpd-vhosts")
 
-Após salvar o arquivo, feche-o e volte à pasta `conf`, nessa pasta há uma pasta chamada `extra`, abra-a e em seguida abra o arquivo `httpd-vhosts.conf` com um editor de texto. Nesse arquivo, copie e cole logo abaixo o texto que está nele, editando os campos `ServerName`, `DocumentRoot` e `Directory` conforme a imagem abaixo.
+Após salvar o arquivo, feche-o e volte à pasta `conf`. Nessa pasta há uma pasta chamada `extra`, abra-a e em seguida abra o arquivo `httpd-vhosts.conf` com um editor de texto. Nesse arquivo, copie e cole logo abaixo o texto que está nele, editando os campos `ServerName`, `DocumentRoot` e `Directory` conforme a imagem abaixo.
 
 ![httpd-vhosts.conf](img/screenshot3.png "httpd-vhosts.conf")
 
