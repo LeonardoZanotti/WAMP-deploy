@@ -63,4 +63,4 @@ Por fim, volte ao disco local e vá em `Windows > System32 > drivers > etc`. Nes
 
 ![hosts](img/screenshot4.png "hosts")
 
-Com isso, basta reiniciar o WampServer na barra de tarefas, para isso clique no ícone dele com o botão esquerdo e então clique em "Reiniciar todos os serviços". Após o WampServer reiniciar, vá na url `jogo2048.com` no seu navegador, que deverá mostrar o jogo que hospedamos.
+Com isso, basta reiniciar o WampServer na barra de tarefas. Para isso clique no ícone dele com o botão esquerdo e então clique em "Reiniciar todos os serviços". Após o WampServer reiniciar, vá na url `jogo2048.com` no seu navegador, que deverá mostrar o jogo que hospedamos.
