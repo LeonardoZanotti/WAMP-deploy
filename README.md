@@ -59,7 +59,7 @@ Após salvar o arquivo, feche-o e volte à pasta `conf`. Nessa pasta há uma pas
 
 ![httpd-vhosts.conf](img/screenshot3.png "httpd-vhosts.conf")
 
-Por fim, volte ao disco local e vá em `Windows > System32 > drivers > etc`. Nesta pasta abra o arquivo `hosts` com o editor de texto **como admnistrador** (abra o editor de texto como admnistrador e então abra o arquivo hosts através do editor de texto). Neste arquivo, após `127.0.0.1 localhost`, coloque `127.0.0.1 jogo2048.com` e salve.
+Por fim, volte ao disco local e vá em `Windows > System32 > drivers > etc`. Nesta pasta abra o arquivo `hosts` com o editor de texto **como administrador** (abra o editor de texto como admnistrador e então abra o arquivo hosts através do editor de texto). Neste arquivo, após `127.0.0.1 localhost`, coloque `127.0.0.1 jogo2048.com` e salve.
 
 ![hosts](img/screenshot4.png "hosts")
 
