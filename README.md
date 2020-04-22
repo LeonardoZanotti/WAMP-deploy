@@ -11,8 +11,12 @@ Para subir o jogo no localhost no windows é necessário o uso do Apache, que po
 * Caso tenha Skype, feche-o durante a instalação, pois este programa também ouve a porta 80 assim como o WampServer.
 * Execute o instalador como admnistrador.
 * Instale todos os pacotes C++ exigidos pelo WampServer:
-
+   * [Todos os pacotes x86](http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86.zip)
+   * [Todos os pacotes x86 e x64](http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86_x64.zip)
+   
    **Se seu windows é 64 bits você deverá instalar todos os pacotes 64 bits (x64) e 32 bits (x86)**
+   
+* Ou se preferir, instale-os individualmente:
    * VC9 Packages (Visual C++ 2008 SP1)
       * [x86](https://www.microsoft.com/en-us/download/details.aspx?id=29)
       * [x64](https://www.microsoft.com/en-us/Download/confirmation.aspx?id=15336)
@@ -30,10 +34,6 @@ Para subir o jogo no localhost no windows é necessário o uso do Apache, que po
    * VC16 Redistribuable (Visual C++ 2015-2019)
       * [x86](https://aka.ms/vs/16/release/VC_redist.x86.exe)
       * [x64](https://aka.ms/vs/16/release/VC_redist.x64.exe)
-
-   * [Todos os pacotes x86](http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86.zip)
-   * [Todos os pacotes x86 e x64](http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86_x64.zip)
-
 
 O download do arquivo executável do WampServer pode ser obtido neste [link](http://wampserver.aviatechno.net).
 Após acessar o site e baixar o arquivo, basta executá-lo e seguir os procedimentos de instalação.
