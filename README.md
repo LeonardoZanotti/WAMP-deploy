@@ -38,13 +38,17 @@ Para subir o jogo no localhost no windows é necessário o uso do Apache, que po
 O download do arquivo executável do WampServer pode ser obtido neste [link](http://wampserver.aviatechno.net).
 Após acessar o site e baixar o arquivo, basta executá-lo e seguir os procedimentos de instalação.
 
-Após a instalação, execute o WampServer e abra o [localhost](www.localhost/) no seu navegador
+Após a instalação, execute o WampServer, aguarde o ícone dele ficar verde na barra de tarefas e abra o localhost no seu navegador. A página do WampServer deverá aparecer, indicando que a instalação foi realizada corretamente.
 
+
+## Hospedando o jogo
 ```sh
-make install
-npm test
+dale
 ```
 
+```
+dale
+```
 
 teste
 
