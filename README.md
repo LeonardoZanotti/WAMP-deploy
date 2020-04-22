@@ -51,7 +51,7 @@ Após a instalação do WampServer, vá até o disco local e entre na pasta onde
 
 ![jogo2048.com](img/screenshot1.png "Pasta 'jogo2048.com' criada")
 
-Feito isso, volte à pasta do WampServer e vá em `bin > apache > apache2.4.41 > conf`. Detalhe que a pasta `apache2.4.41` pode mudar de nome dependendo da versão do seu apache, entretanto, esta pasta é a única dentro da pasta `apache`. Na pasta `conf`, abra o arquivo `httpd.conf` com um editor de texto e procure onde está escrito `httpd-vhosts`. Caso esta linha esteja comentada, ou seja, com um `#` na frente, apague o `#` e salve o arquivo.
+Feito isso, volte à pasta do WampServer e vá em `bin > apache > apache2.4.41 > conf`. Detalhe que a pasta `apache2.4.41` pode mudar de nome dependendo da versão do seu apache. Na pasta `conf`, abra o arquivo `httpd.conf` com um editor de texto e procure onde está escrito `httpd-vhosts`. Caso esta linha esteja comentada, ou seja, com um `#` na frente, apague o `#` e salve o arquivo.
 
 ![httpd-vhosts](img/screenshot2.png "httpd-vhosts")
 
