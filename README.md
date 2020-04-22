@@ -49,7 +49,7 @@ A página do WampServer deverá aparecer, indicando que a instalação foi reali
 ## Hospedando o jogo
 Após a instalação do WampServer, vá até o disco local e entre na pasta onde foi instalado o WampServer (por padrão é `wamp64`) e então entre na pasta `www`. Nessa pasta, copie e cole a pasta `jogo2048.com` que está neste repositório.
 
-![jogo2048.com](img/screenshot1.png "Pasta 'jogo2048.com' criada")
+![jogo2048.com](img/screenshot1.png "Pasta 'jogo2048.com' colocada na pasta 'www'")
 
 Feito isso, volte à pasta do WampServer e vá em `bin > apache > apache2.4.41 > conf`. Detalhe que a pasta `apache2.4.41` pode mudar de nome dependendo da versão do seu apache. Na pasta `conf`, abra o arquivo `httpd.conf` com um editor de texto e procure onde está escrito `httpd-vhosts`. Caso esta linha esteja comentada, ou seja, com um `#` na frente, apague o `#` e salve o arquivo.
 
